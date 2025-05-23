@@ -13,5 +13,10 @@ for i = 1, 10 do
   	8
   }
   game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpinPrizeEvent"):FireServer(unpack(x10money))
+  local x10spins = {
+        10
+  }
+  game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("SpinPrizeEvent"):FireServer(unpack(x10spins))
+
   task.wait(2)
 end
